@@ -99,16 +99,12 @@ h1 {
 }
 
 .left_leg:hover {
+  transition: all 1s ease-in-out;
   -webkit-transform: rotate(20deg);
   -moz-transform: rotate(20deg);
   -o-transform: rotate(20deg);
   -ms-transform: rotate(20deg);
   transform: rotate(20deg);
-}
-
-.right_leg {
-  margin-left: 120px;
-  margin-top: -120px;
 }
 
 .right_leg:hover {
@@ -118,6 +114,11 @@ h1 {
   -o-transform: rotate(-20deg);
   -ms-transform: rotate(-20deg);
   transform: rotate(-20deg);
+}
+
+.right_leg {
+  margin-left: 120px;
+  margin-top: -120px;
 }
 
 .left_eye,
